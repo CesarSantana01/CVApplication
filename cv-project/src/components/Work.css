@@ -1,0 +1,120 @@
+textarea:focus{
+    outline: none;
+    ;
+}
+
+.Questions{
+width: 65%;
+height: 100%;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.Questions>div{
+display: flex;
+flex-direction: column;
+}
+.Questions input{
+    width: 15vw;
+    height: 3vh;
+}
+
+.Desc{
+    width: 35%;
+    height: 100%;
+        display: flex;
+        
+        flex-direction: column;
+}
+.Desc>textarea{
+resize: none;
+width: 28vw;
+height: 90%;
+    border: none;
+    border-radius: 5px;
+    background-color:rgba(0, 0, 0, 0.172) ;
+}
+
+/* -------------------------------------------
+
+Skills Description */
+
+.SkillDesc{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.SkillDesc>textarea{
+
+margin: auto;
+resize: none;
+width: 97%;
+height: 11vh;
+  border: none;
+  border-radius: 5px;
+  background-color:rgba(0, 0, 0, 0.172) ;
+
+}
+
+.TopContainer{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.TopHeader{
+display: flex;
+justify-content: center;
+align-self: center;
+    font-size: 3vh;
+    padding: 0;
+}
+
+.ButtonContainer{
+    display: flex;
+    align-items: center;
+    gap:.5vw;
+    margin-right:1vw ;
+}
+
+.Submit{
+width: 10vw;
+height: 7vh;
+    background-color: rgb(73, 246, 73);
+    border: none;
+    border-radius: 6px;
+    
+    text-align: center;
+    
+    color: rgba(0, 0, 0, 0.655);
+}
+.Submit>div{
+    padding: .1vh;
+    display: flex;
+    justify-content: center;
+    font-size: 3vw;
+}
+
+.Preview{
+width: 10vw;
+height: 7vh;
+    background-color: aqua;
+    border: none;
+    border-radius: 6px;
+   
+    text-align: center;
+    
+    color: rgba(0, 0, 0, 0.655);
+
+}
+.Preview>div{
+    display: flex;
+    justify-content: center;
+    padding: .1vh;
+    font-size: 3vw;
+}
+
+button:hover{
+    
+}

@@ -1,0 +1,125 @@
+html, body{
+    margin:0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    
+    
+}
+
+input:focus{
+outline: none;
+}
+
+.MainPage{
+    
+background-color: rgb(77, 193, 193);
+position: absolute;
+   width: 100%;
+   height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Table{
+background-color: rgb(241, 119, 139);
+box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.383);
+border-radius: 6px;
+    width: 90%;
+    height: 90%;
+        display: flex;
+        flex-direction: column;
+      
+}
+
+.Resume-Img{
+    padding-top: .5vh;
+    width: 8vh;
+    height: 8vh;
+}
+.ResumeCont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+.Resume{
+background-color: rgba(255, 255, 255, 0.3);
+border-radius: 6px;
+  margin: 1vh;
+  border: none;
+  height: 98%;
+  width: 99%;
+    display: flex;
+    flex-direction: column;
+}
+
+.Categories{
+    height: 25%;
+    display: flex;
+    flex-direction: column;
+    gap: .5vh;
+    font-size: 2vh;
+    
+}
+.Header{
+    margin: 0;
+    font-size: 3vh;
+    padding: .2vh;
+}
+.Grouping{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    margin: .2vh;
+}
+
+.Categories input{
+    border-radius: 3px;
+    border:none;
+    background-color: rgba(0, 0, 0, 0.155);
+    
+}
+
+.LeftContact{
+display: grid;
+width: 70%;
+height: 100%;
+grid-template-rows: 1fr 1fr;
+grid-template-columns: 1fr 1fr;
+}
+
+.LeftContact > div{
+    display:flex;
+    flex-direction: column;
+    
+}
+.LeftContact > div >input{
+    width: 22vw;
+    height: 3vh;
+    font-size: 1.5vh;
+}
+
+.RightContact{
+display: grid;
+width: 30%;
+height: 100%;
+grid-template-rows: repeat(3, 1fr);
+text-align: left;
+justify-content: end;
+font-size: 1.5vh;
+padding: .5vh;
+}
+.RightContact > div{
+    display:flex;
+    flex-direction: column;
+    
+}
+.RightContact > div >input{
+    width: 10vh;
+    height: 1.3vh;
+}
+
