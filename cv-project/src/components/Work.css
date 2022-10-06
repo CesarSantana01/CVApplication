@@ -1,6 +1,6 @@
 textarea:focus{
     outline: none;
-    ;
+    
 }
 
 .Questions{
@@ -9,6 +9,7 @@ height: 100%;
     display: grid;
     grid-template-rows: 1fr 1fr;
     grid-template-columns: 1fr 1fr 1fr;
+    
 }
 .Questions>div{
 display: flex;
@@ -23,16 +24,17 @@ flex-direction: column;
     width: 35%;
     height: 100%;
         display: flex;
-        
         flex-direction: column;
 }
 .Desc>textarea{
 resize: none;
-width: 28vw;
-height: 90%;
+width: 27vw;
+height: 8vh;
     border: none;
     border-radius: 5px;
     background-color:rgba(0, 0, 0, 0.172) ;
+    font-size: 1.5vh;
+    padding: .5vh;
 }
 
 /* -------------------------------------------
@@ -42,6 +44,7 @@ Skills Description */
 .SkillDesc{
     display: flex;
     flex-direction: column;
+    padding: 1vh;
     
 }
 
@@ -49,11 +52,12 @@ Skills Description */
 
 margin: auto;
 resize: none;
-width: 97%;
-height: 11vh;
+width: 90%;
   border: none;
   border-radius: 5px;
   background-color:rgba(0, 0, 0, 0.172) ;
+  padding: .5vh;
+  font-size: 1.5vh;
 
 }
 
@@ -71,29 +75,12 @@ align-self: center;
     padding: 0;
 }
 
-.ButtonContainer{
+.ButtonContainer1{
     display: flex;
     align-items: center;
+    justify-content: end;
     gap:.5vw;
     margin-right:1vw ;
-}
-
-.Submit{
-width: 10vw;
-height: 7vh;
-    background-color: rgb(73, 246, 73);
-    border: none;
-    border-radius: 6px;
-    
-    text-align: center;
-    
-    color: rgba(0, 0, 0, 0.655);
-}
-.Submit>div{
-    padding: .1vh;
-    display: flex;
-    justify-content: center;
-    font-size: 3vw;
 }
 
 .Preview{
@@ -115,6 +102,28 @@ height: 7vh;
     font-size: 3vw;
 }
 
+.EditButton{
+    background-color: aqua;
+    margin-top: 3vh;
+}
+.Accent{
+    text-align: center;
+    margin:1vh;
+    font-size: 5vh;
+}
+
+button{
+    margin-top: .5vh;
+    background-color: rgb(213, 155, 164);
+    border: none;
+    box-shadow: 0px 0px 5px black;
+    transition: .2s ease;
+}
+
 button:hover{
-    
+    transform: scale(1.05);
+}
+
+button:active{
+    transform: scale(.95);
 }

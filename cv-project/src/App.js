@@ -7,8 +7,11 @@ function App() {
   return (
     <div className="App">
        <div className='MainPage'>
-        <div className='Table'>  
-       <MainPage></MainPage>
+        <div className='Table'> 
+        
+             
+            <MainPage></MainPage>
+          
         </div>
        </div>
     </div>

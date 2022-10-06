@@ -2,14 +2,36 @@ html, body{
     margin:0;
     padding: 0;
     width: 100%;
+    height: 100%;   
+}
+
+textarea{
+font-family: 'Times New Roman', Times, serif
+}
+input{
+    font-family: 'Times New Roman', Times, serif;
+}
+.MAIN{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.View1{
+    display: none;
+    width: 100%;
     height: 100%;
-    
-    
+}
+
+.View2{
+    display: none;
+    width: 100%;
+    height: 100%;
 }
 
 input:focus{
 outline: none;
 }
+
+
 
 .MainPage{
     
@@ -20,6 +42,7 @@ position: absolute;
     display: flex;
     justify-content: center;
     align-items: center;
+    
 }
 
 .Table{
@@ -27,9 +50,9 @@ background-color: rgb(241, 119, 139);
 box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.383);
 border-radius: 6px;
     width: 90%;
-    height: 90%;
         display: flex;
         flex-direction: column;
+        padding: 1vh;
       
 }
 
@@ -74,13 +97,14 @@ border-radius: 6px;
     display: flex;
     width: 100%;
     height: 100%;
-    margin: .2vh;
+    margin-left: .5vh;
 }
 
 .Categories input{
     border-radius: 3px;
     border:none;
     background-color: rgba(0, 0, 0, 0.155);
+    font-size: 1.5vh;
     
 }
 

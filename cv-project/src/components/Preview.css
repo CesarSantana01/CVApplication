@@ -1,1 +1,227 @@
-.
+:root{
+    --ColorChange:rgb(247, 130, 149);
+}
+
+.View2{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    
+}
+
+.PreviewContainer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row-reverse;
+    width: 100%;
+    height: 100%;
+}
+
+.ButtonContainer2{
+    width: fit-content;
+    display: grid;
+}
+.ButtonContainer2>button{
+    border-radius: 10px;
+    height: 6vh;
+}
+
+.PreviewPaper{
+background-color: whitesmoke;
+display: flex;
+flex-direction: column;
+box-shadow: 2px 5px 5px rgba(0, 0, 0, 0.489);
+    border-radius: 3px;
+    margin: 1vh;
+    width:35vw;
+    height: 49.35vw;
+}
+
+@media only screen and (max-width:400px) { 
+    .PreviewPaper{
+        width: 250px;
+        height: 445px;
+    }
+}
+
+.PreviewContactInformation{
+    background-color: rgba(185, 185, 185, 0.489);
+    border-bottom: 2px solid rgba(136, 136, 136, 0.282);
+    display: flex;
+    flex-direction: column;
+    height: 25%;
+    gap: 1.8vh;
+    border-top-right-radius: 3px;
+    border-top-left-radius: 3px;
+    padding: .5vh;
+}
+.PreviewName{
+    font-size: 4.5vh;
+    width: max-content;
+    border-bottom: var(--ColorChange) 2px solid;
+    text-shadow: 0px 4px 10px rgba(0, 0, 0, 0.356);
+}
+
+.GroupContainer{
+    display: flex;
+    flex-direction: column;
+}
+.LineUp{
+    display: flex;
+    gap: 1vh;
+    font-size: 1.5vh;
+}
+
+.PreviewEmail{
+    padding-left: .5vh;
+    border-left: 2px solid var(--ColorChange);
+}
+
+.PreviewAddress{
+    font-size: 1.5vh;
+}
+ 
+.MiniContainer{
+    display: flex;
+    flex-direction: column;
+    gap: .4vh;
+    font-size: 1.5vh;
+}
+.PreviewLinkedIn{
+    display: flex;
+    gap: .5vh;
+}
+.PreviewGithub{
+    display: flex;
+    gap: .5vh;
+}
+.OutletImg{
+    width: 1.5vh;
+    height: 1.5vh;
+}
+
+
+.PreviewExperience{
+    height: 25%;
+    display: flex;
+    padding: .5vh;
+}
+
+.CompanyMiniContainer{
+    display: flex;
+    flex-direction: column;
+    width: 55%;
+    gap: 2vh;
+}
+
+.CompanyName{
+    font-size: 2.5vh;
+}
+.CompanyCity{
+    font-size: 1.5vh;
+}
+.CompanyRole{
+    font-size: 1.5vh;
+}
+
+.CompanyDate{
+font-size: 1.3vh;
+}
+
+.CompanyDate>span{
+    font-size: 2vh;
+    text-shadow: 0px 0px 2px var(--ColorChange);
+
+}
+
+
+.CompanyMiniContainer2{
+    width: 40%;
+}
+
+.CompanyDescription{
+    width: 100%;
+    height: 80%;
+    border: 2px solid var(--ColorChange);
+    box-shadow: 0px 0px 3px var(--ColorChange);
+    border-radius: 5px;
+        padding: .5vh;
+        margin-top: .5vh;
+        font-size: 1.5vh;
+}
+
+.PreviewEducation{
+    height: 25%;
+    display: flex;
+    padding: .5vh;
+}
+
+
+.SchoolMiniContainer{
+    display: flex;
+    flex-direction: column;
+    width: 55%;
+    gap: 2vh;
+}
+
+.SchoolName{
+    font-size: 2.5vh;
+}
+.SchoolCity{
+    font-size: 1.5vh;
+}
+.SchoolRole{
+    font-size: 1.5vh;
+}
+
+.SchoolDate{
+font-size: 1.3vh;
+}
+.SchoolDate>span{
+    font-size: 2vh;
+    text-shadow: 0px 0px 2px var(--ColorChange);
+}
+
+
+.SchoolMiniContainer2{
+    width: 40%;
+}
+
+.SchoolDescription{
+    width: 100%;
+    height: 80%;
+    border: 2px solid var(--ColorChange);
+    box-shadow: 0px 0px 3px var(--ColorChange);
+    border-radius: 5px;
+        padding: .5vh;
+        margin-top: .5vh;
+        font-size: 1.5vh;
+}
+
+.PreviewSkills{
+    height: 25%;
+
+}
+
+.SkillsContainer{
+width: 100%;
+height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.SkillsDescription{
+    border: 2px solid var(--ColorChange);
+    box-shadow: 0px 0px 3px var(--ColorChange);
+    width: 100%;
+    height: 85%;
+    margin-left: .5vh;
+    margin-right: .5vh;
+    padding: .5vh;
+    border-radius:5px;
+    font-size: 1.5vh;
+}
